@@ -21,7 +21,7 @@ class Person
 
        public void print()
          {
-           JOptionPane.showMessageDialog(null, "Name:" + name + "State:" + state + "Zipcode : " + zipcode + "Mobile Number :" +mobno);
+           JOptionPane.showMessageDialog(null, "Name:" + name + "\nState:" + state + "\nZipcode : " + zipcode + "\nMobile Number :" +mobno);
          }
 }
 
@@ -96,7 +96,7 @@ public class AddressBookManager
 
         while(true)
          {
-           name = JOptionPane.showInputDialog("Enter 1 to add\n Enter 2 to search\n Enter 3 to remove\n");
+           name = JOptionPane.showInputDialog("Enter 1 to Add\n Enter 2 to Search\n Enter 3 to Remove\n Enter 4 to Display");
            ch = Integer.parseInt(name);                     //converting String to character
            switch(ch)
             {
